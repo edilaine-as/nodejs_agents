@@ -37,11 +37,11 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create room
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/6b70810c-74ff-4ce9-2665-dbe392f0610b/questions
 Accept: application/json
 Content-Type: application/json
 
 {
-    "question": "Questão 1",
+    "question": "O que é Alquimia das Almas?",
     "description": "Essa é uma questão de teste"
 }
